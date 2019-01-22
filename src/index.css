@@ -12,3 +12,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.head{
+  background: blue;
+  color: wheat;
+  text-align: center;
+  /* text-decoration-color: wheat; */
+}
+
+.foot{
+  background-color: aquamarine;
+  text-align: center;
+}
+.todo-list{
+  background-color: goldenrod;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  
+}
+.todo-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items:  center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid blue;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+.contact-card{
+  background-color: wheat;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.total-card{
+  display: inline-flex;
+}
